@@ -45,7 +45,7 @@ function checkCashRegister(price, cash, cid) {
     let newChange = change;
     let sumOfAllSubtractedValue = 0;
     let sumArrs = [];
-ff3edws2xz``
+
     for (let i = 0; i < reversedArray.length; i++) {
       let cashRemainderForEachElementInDrawer = reversedArray[i][1];
       let eachCoinAndNote = currencyUnit[i].value;
@@ -85,4 +85,3 @@ console.log(
     ["ONE HUNDRED", 100],
   ])
 );
-
